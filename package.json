@@ -1,0 +1,58 @@
+{
+  "name": "aws-amplify-ecommerce",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "aws-amplify": "^1.2.4",
+    "aws-amplify-react": "^2.5.4",
+    "aws-cli": "0.0.2",
+    "body-parser": "^1.19.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.19.1",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "isomorphic-unfetch": "^3.0.0",
+    "jest": "^24.9.0",
+    "lambda-tester": "^4.0.1",
+    "next": "^9.1.6",
+    "nock": "^11.7.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-native": "^0.61.5",
+    "react-native-paper": "^3.4.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^3.3.0",
+    "react-slick": "^0.25.2",
+    "react-stripe": "^0.1.0",
+    "react-stripe-checkout": "^2.6.3",
+    "semantic-ui-react": "^0.88.1",
+    "serverless": "^1.60.4",
+    "slick-carousel": "^1.8.1",
+    "stripe": "^7.14.0",
+    "styled-components": "^4.4.1",
+    "uuid": "^3.3.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
